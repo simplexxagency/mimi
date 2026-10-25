@@ -1,0 +1,94 @@
+{
+  "assets": [
+    {
+      "path": "public/avatars/ember.glb",
+      "size": 5095580,
+      "sha256": "fef8cae25a28770cb614b4e0d23faad24b0369c67249542d8ab0564c6eb8e3ad",
+      "parts": [
+        "asset-packs/public__avatars__ember.glb.gz.part00",
+        "asset-packs/public__avatars__ember.glb.gz.part01",
+        "asset-packs/public__avatars__ember.glb.gz.part02",
+        "asset-packs/public__avatars__ember.glb.gz.part03"
+      ]
+    },
+    {
+      "path": "public/avatars/kai.glb",
+      "size": 8561432,
+      "sha256": "8ad0af8e5fbe1fe7e9207c612e5c03cde7c144ff35005349d4e512a06ae3dff5",
+      "parts": [
+        "asset-packs/public__avatars__kai.glb.gz.part00",
+        "asset-packs/public__avatars__kai.glb.gz.part01",
+        "asset-packs/public__avatars__kai.glb.gz.part02",
+        "asset-packs/public__avatars__kai.glb.gz.part03",
+        "asset-packs/public__avatars__kai.glb.gz.part04",
+        "asset-packs/public__avatars__kai.glb.gz.part05"
+      ]
+    },
+    {
+      "path": "public/avatars/nova.glb",
+      "size": 5467216,
+      "sha256": "c3506d94dc7be7231d110e4fd3447e350162faa358916d4e7af8690a2d0f3714",
+      "parts": [
+        "asset-packs/public__avatars__nova.glb.gz.part00",
+        "asset-packs/public__avatars__nova.glb.gz.part01",
+        "asset-packs/public__avatars__nova.glb.gz.part02",
+        "asset-packs/public__avatars__nova.glb.gz.part03"
+      ]
+    },
+    {
+      "path": "public/avatars/sky.glb",
+      "size": 5472488,
+      "sha256": "fe4cfc38504b586ba750fd872723091bec962b988b826b457e42f25e8c524bfc",
+      "parts": [
+        "asset-packs/public__avatars__sky.glb.gz.part00",
+        "asset-packs/public__avatars__sky.glb.gz.part01",
+        "asset-packs/public__avatars__sky.glb.gz.part02",
+        "asset-packs/public__avatars__sky.glb.gz.part03"
+      ]
+    },
+    {
+      "path": "public/wasm/vision_wasm_internal.wasm",
+      "size": 11153617,
+      "sha256": "6a5c64584c2ab61c763b6e204afbdbc7ce1caf7f5216187322bca8df94f646bc",
+      "parts": [
+        "asset-packs/public__wasm__vision_wasm_internal.wasm.gz.part00",
+        "asset-packs/public__wasm__vision_wasm_internal.wasm.gz.part01",
+        "asset-packs/public__wasm__vision_wasm_internal.wasm.gz.part02",
+        "asset-packs/public__wasm__vision_wasm_internal.wasm.gz.part03"
+      ]
+    },
+    {
+      "path": "public/wasm/vision_wasm_module_internal.wasm",
+      "size": 11153641,
+      "sha256": "617b8e0248dbd27e9d7ece4218004eae4cefb499196d1bb4fa0e3fef21708756",
+      "parts": [
+        "asset-packs/public__wasm__vision_wasm_module_internal.wasm.gz.part00",
+        "asset-packs/public__wasm__vision_wasm_module_internal.wasm.gz.part01",
+        "asset-packs/public__wasm__vision_wasm_module_internal.wasm.gz.part02",
+        "asset-packs/public__wasm__vision_wasm_module_internal.wasm.gz.part03"
+      ]
+    },
+    {
+      "path": "public/wasm/vision_wasm_nosimd_internal.wasm",
+      "size": 10481398,
+      "sha256": "8a3092d34c79d3f57e6ba8592105e8a90f6b07c27891ffecd14cca428bfd3e31",
+      "parts": [
+        "asset-packs/public__wasm__vision_wasm_nosimd_internal.wasm.gz.part00",
+        "asset-packs/public__wasm__vision_wasm_nosimd_internal.wasm.gz.part01",
+        "asset-packs/public__wasm__vision_wasm_nosimd_internal.wasm.gz.part02",
+        "asset-packs/public__wasm__vision_wasm_nosimd_internal.wasm.gz.part03"
+      ]
+    },
+    {
+      "path": "public/model/face_landmarker.task",
+      "size": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "parts": [
+        "asset-packs/public__model__face_landmarker.task.gz.part00",
+        "asset-packs/public__model__face_landmarker.task.gz.part01",
+        "asset-packs/public__model__face_landmarker.task.gz.part02",
+        "asset-packs/public__model__face_landmarker.task.gz.part03"
+      ]
+    }
+  ]
+}

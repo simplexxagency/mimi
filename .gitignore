@@ -1,0 +1,49 @@
+# Dependencies / build
+node_modules/
+dist/
+.vite/
+.cache/
+coverage/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local/private images, experiment files and test output
+archive/
+quality_checks/
+runtime/
+chrome-profile/
+.chrome-test/
+obs-profile/
+screenshots/
+recordings/
+test-results/
+playwright-report/
+*.mp4
+*.mov
+*.webm
+*.bak
+*.backup
+*.psd
+*.blend
+*.blend1
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.secret
+
+preview*.png
+avatar_face_test.png
+
+# Restored licensed assets
+public/avatars/*.glb
+public/wasm/*.wasm
+public/model/*.task
+\n# Reconstructed by scripts/restore-assets.mjs from committed asset-packs/\n/public/avatars/*.glb\n/public/model/*.task\n/public/wasm/*.wasm\n

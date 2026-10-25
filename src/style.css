@@ -1,0 +1,79 @@
+:root{font-family:'Segoe UI',Inter,system-ui,sans-serif;color:#eaf3ff;background:#081019;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100vh}button,select,input{font:inherit}button{cursor:pointer}button:disabled{cursor:wait;opacity:.65}button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #54eebf;outline-offset:3px}#app{min-height:100vh}.app-shell{display:grid;grid-template-columns:264px minmax(0,1fr);min-height:100vh;background:radial-gradient(circle at 67% -35%,#10364c 0%,#081019 58%)}aside{background:#09151e;border-right:1px solid #243442;padding:28px 19px;display:flex;flex-direction:column;gap:26px}.brand{display:flex;align-items:center;gap:12px;padding:5px 8px}.logo{width:42px;height:42px;border-radius:15px;background:linear-gradient(145deg,#7cfac8,#35a5d9);color:#05251f;display:grid;place-items:center;font:700 24px 'Segoe UI',system-ui,sans-serif;box-shadow:0 6px 24px #41e8c63d}.brand strong{font:700 24px 'Segoe UI',system-ui,sans-serif;letter-spacing:-1.4px}.brand span{display:block;margin-top:-2px;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#6a9aab}.nav-caption,.section-title{font-size:10px;font-weight:700;letter-spacing:2px;color:#5f8192;text-transform:uppercase}.nav-caption{padding:0 13px}.nav-item{border-radius:12px;padding:12px 14px;background:transparent;border:1px solid transparent;color:#9db0bf;display:flex;gap:12px;align-items:center;text-align:left}.nav-item.active{background:#122c33;border-color:#205257;color:#96ffda;font-weight:700}.nav-item svg{width:18px;height:18px}.side-bottom{margin-top:auto;color:#7893a2;font-size:12px;line-height:1.7;padding:14px;border-top:1px solid #223440}.side-bottom strong{color:#b9cfdb}.live-pip{display:inline-block;width:8px;height:8px;background:#667d8b;border-radius:50%;margin-right:6px}.live-pip.on{background:#4af1b9;box-shadow:0 0 14px #4af1b9}main{padding:27px clamp(20px,3.5vw,52px) 34px;max-width:1700px;width:100%;margin:auto}.topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:25px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:3px;color:#49dbb4;font-weight:700}.topbar h1{font:600 clamp(28px,3vw,40px) 'Segoe UI',system-ui,sans-serif;margin:8px 0 4px;letter-spacing:-1.5px}.muted{color:#829bac;font-size:13px;line-height:1.6}.topright{display:flex;align-items:center;gap:10px;background:#112630;border:1px solid #264451;padding:10px 13px;border-radius:20px;color:#b3d2df;font-size:12px}.dot{width:7px;height:7px;border-radius:50%;background:#42edb0;box-shadow:0 0 12px #42edb0}.layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:22px}.panel{background:#101d28;border:1px solid #263844;border-radius:20px;overflow:hidden;box-shadow:0 25px 60px #0002}.panel-bar{display:flex;align-items:center;justify-content:space-between;padding:17px 20px;border-bottom:1px solid #253744;gap:12px}.panel-bar h2{margin:0;font-size:14px;font-weight:700}.panel-bar small{color:#6c8a9c}.stage-frame{position:relative;aspect-ratio:16/9;background:#0c1620;overflow:hidden}.stage-frame>canvas{display:block;width:100%;height:100%;object-fit:contain}.overlay-label{position:absolute;left:16px;top:16px;background:#06151aba;border:1px solid #ffffff1c;border-radius:100px;font-size:11px;padding:8px 12px;color:#b6dbc8;backdrop-filter:blur(12px)}.overlay-label i{display:inline-block;width:6px;height:6px;border-radius:50%;background:#40dfae;margin-right:8px}.stage-footer{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;gap:12px}.metrics{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:#94adbb}.metrics strong{color:#d7e9ef;margin-right:5px}.btn{border-radius:12px;padding:11px 15px;display:inline-flex;justify-content:center;align-items:center;gap:8px;border:1px solid #335462;background:#172d38;color:#cce3eb;font-size:12px;font-weight:700;transition:.16s}.btn:hover{border-color:#5d9ea5;transform:translateY(-1px)}.btn.primary{background:linear-gradient(110deg,#65e7bd,#3bc2b0);border:0;color:#062622;box-shadow:0 10px 22px #17b58b27}.btn.ghost{background:#122330}.btn.small{padding:8px 11px;border-radius:9px}.btn.row{width:100%}.control-panel{padding:22px;display:flex;flex-direction:column;gap:18px}.block{display:flex;flex-direction:column;gap:10px}.control-row{display:flex;align-items:center;justify-content:space-between;gap:12px}.block label{font-size:12px;color:#afc6cf}.hint{font-size:11px;line-height:1.6;color:#7496a8}.segmented{display:flex;gap:4px;padding:4px;background:#081720;border:1px solid #253c46;border-radius:11px}.segment{flex:1;border:0;border-radius:8px;background:transparent;color:#718b9b;padding:10px 6px;font-size:11px;font-weight:700}.segment.selected{background:#1f4650;color:#b5ffdf}.field{width:100%;min-width:0;border:1px solid #2c4653;background:#0a1a24;color:#cfe4e9;padding:11px 12px;border-radius:10px;outline:0;font-size:12px}.field:hover{border-color:#4d7787}.divider{height:1px;background:#273942}.slider-row{display:grid;grid-template-columns:1fr 44px;gap:10px;align-items:center}.slider-row output{text-align:right;font-size:12px;color:#8ecbba}input[type=range]{width:100%;accent-color:#62eec1;cursor:pointer}.upload{display:grid;place-items:center;text-align:center;border:1px dashed #3e6670;background:#0c222b;border-radius:12px;padding:15px;cursor:pointer;gap:4px;color:#c8eff0;font-size:12px;font-weight:700}.upload small{font-size:10px;color:#7fa4b1;font-weight:400}.upload input{display:none}.status{display:flex;gap:10px;align-items:flex-start;border:1px solid #2a4d53;border-radius:12px;background:#12312e;padding:12px;font-size:11px;color:#a9d7cf;line-height:1.5}.status.error{background:#352326;border-color:#694149;color:#f9a8ac}.lower{margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:20px}.info-card{padding:19px 21px;background:#0f1d28;border:1px solid #263844;border-radius:17px;display:flex;gap:15px;align-items:center}.info-card h3{margin:0 0 4px;font-size:13px}.info-card p{margin:0;font-size:11px;line-height:1.65;color:#859ca9}.icon-box{background:#183b40;border:1px solid #2a6767;color:#5cf0ba;width:39px;height:39px;display:grid;place-items:center;flex-shrink:0;border-radius:12px;font-size:19px}.preview-video{width:100%;border-radius:12px;aspect-ratio:16/9;object-fit:cover;transform:scaleX(-1);background:#071017}.camera-mini{display:none}.status-pill{display:inline-flex;gap:7px;align-items:center;border:1px solid #345766;background:#102934;border-radius:100px;padding:8px 11px;font-size:11px;color:#acd6cb}.record-hint{background:#0b2d2b;color:#b0e6d8;border:1px solid #295e58;border-radius:11px;padding:12px;font-size:11px;line-height:1.6}.photo-controls{display:none}.photo-controls.visible{display:flex}.broadcast #app{background:#080f17}.broadcast aside,.broadcast .topbar,.broadcast .control-column,.broadcast .panel-bar,.broadcast .stage-footer,.broadcast .lower{display:none!important}.broadcast main{padding:0;max-width:none}.broadcast .layout{display:block}.broadcast .panel{border:0;border-radius:0;box-shadow:none;background:#081019}.broadcast .stage-frame{width:100vw;height:100vh;aspect-ratio:auto;display:grid;place-items:center}.broadcast .stage-frame>canvas{width:100%;height:100%;object-fit:contain}.broadcast .overlay-label{display:none}.broadcast-exit{position:fixed;right:16px;bottom:16px;z-index:9;opacity:0;border:1px solid #ffffff44;color:white;background:#09202bbd;border-radius:12px;padding:10px}.broadcast-exit:hover{opacity:1}.broadcast:not(body){}.broadcast .broadcast-exit{display:block}.broadcast-exit{display:none}.hidden{display:none!important}@media(max-width:1190px){.layout{grid-template-columns:1fr}.lower{grid-template-columns:1fr 1fr}}@media(max-width:750px){.app-shell{grid-template-columns:1fr}aside{display:none}main{padding:20px}.topbar{flex-direction:column}.lower{grid-template-columns:1fr}.stage-footer{flex-direction:column;align-items:stretch}.control-panel{padding:17px}.stage-frame{aspect-ratio:16/10}}
+/* Three.js avatar canvas overlays the 2D fallback and receives drag-to-rotate input. */
+#threeCanvas{position:absolute;inset:0;z-index:1;width:100%!important;height:100%!important;cursor:grab;touch-action:none;object-fit:contain}
+#threeCanvas:active{cursor:grabbing}
+.stage-frame .overlay-label{z-index:2;pointer-events:none}
+
+/* 3D avatar is a rigged GLB: hide the 2D portrait upload, which does not retarget these meshes. */
+#photoControls:has(#threeControls:not(.hidden)) > .upload{display:none}
+
+/* OBS/Meet fullscreen output: remove the reserved 264px sidebar grid track. */
+.broadcast .app-shell{display:block;min-height:100vh}
+.broadcast main{width:100vw;max-width:none;margin:0;padding:0}
+.broadcast .main-column{width:100%}
+
+/* Local OBS controller: full Mimi settings on the right, camera-only content on the left.
+   The OBS scene crops the control panel out of the virtual camera stream. */
+body.broadcast.obs-control-mode .layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 330px;
+  gap:0;
+  height:100vh;
+  width:100vw;
+  overflow:hidden;
+}
+body.broadcast.obs-control-mode .main-column{
+  width:100%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-width:0;
+  background:#07131d;
+}
+body.broadcast.obs-control-mode .main-column>.panel{
+  width:100%;
+  margin:0;
+}
+body.broadcast.obs-control-mode .stage-frame{
+  width:100%;
+  height:auto;
+  aspect-ratio:16/9;
+  display:block;
+}
+body.broadcast.obs-control-mode .control-column{
+  display:block!important;
+  width:330px;
+  max-height:100vh;
+  min-height:0;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  background:#0b1923;
+  border-left:1px solid #2d4b53;
+}
+body.broadcast.obs-control-mode .control-column>.panel{
+  background:#0b1923;
+  border:0;
+  box-shadow:none;
+  border-radius:0;
+  min-height:100%;
+}
+body.broadcast.obs-control-mode .control-column .panel-bar{
+  display:flex!important;
+  position:sticky;
+  top:0;
+  z-index:5;
+  background:#102330;
+  border-bottom:1px solid #31515a;
+  padding:18px 20px;
+}
+body.broadcast.obs-control-mode .control-column .control-panel{
+  padding:19px 18px 28px;
+}
+body.broadcast.obs-control-mode .control-column .segmented{
+  flex-wrap:nowrap;
+}
+body.broadcast.obs-control-mode .control-column .segment{
+  font-size:11px;
+}
+body.broadcast.obs-control-mode .broadcast-exit{display:none}

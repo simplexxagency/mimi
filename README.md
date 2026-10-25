@@ -20,6 +20,8 @@ npm ci
 npm run dev
 ```
 
+The free avatar models and MediaPipe runtime are stored in \`asset-packs/\` as compressed pieces because the GitHub connector limits binary upload size. \`npm ci\` automatically reassembles them into \`public/\` and verifies their SHA-256 checksums. Keep the full \`asset-packs/\` folder if you copy the project.
+
 Open **http://127.0.0.1:5173/** in Chrome. Allow camera access when prompted, then click **Start Camera**. Without a camera, Mimi shows an animated demo.
 
 For a production bundle:
@@ -103,10 +105,10 @@ src/
   head3d_ready.js        Ready-made GLB facial rigs / phonemes
   style.css              UI and broadcast layouts
 public/
-  avatars/*.glb          4 free generic VTubeMe avatars
-  model/                 Face Landmarker model
-  wasm/                  MediaPipe browser runtime
-vite.config.js           Vite and local controller/output relay
+  avatars/*.glb          4 standard VTubeMe avatars (restored from asset-packs/)
+  model/                 Face Landmarker model (restored)
+  wasm/                  MediaPipe browser runtime (restored)
+asset-packs/             Compressed split standard models and runtime assets\nasset-manifest.json      Checksummed restore manifest\nscripts/restore-assets.mjs  Restores public assets during npm ci\nvite.config.js           Vite and local controller/output relay
 Launch-Mimi-Meet.ps1     Windows OBS launcher
 AI_PROMPT.md             Instructions for an AI coding agent
 CREDITS.md               Model license and attribution
